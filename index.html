@@ -3,37 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Thomas James Leone | Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
-        .container {
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
             padding: 20px;
             max-width: 900px;
             margin: 0 auto;
         }
-        h1 {
+        h2 {
             color: #333;
         }
         p {
-            color: #666;
+            color: #555;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hello! My name is [Your Name], and this is my portfolio. Below you can find some of the projects I've worked on.</p>
-        <ul>
-            <li>Project 1: Description of project 1</li>
-            <li>Project 2: Description of project 2</li>
-            <li>Project 3: Description of project 3</li>
-        </ul>
-    </div>
+
+<header>
+    <h1>Thomas James Leone</h1>
+    <p>Senior Technical Writer | Content Developer | Prompt Engineer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a Senior Technical Writer and Content Developer with experience at leading tech companies like Apple, Google, and Facebook. I specialize in developing comprehensive documentation, white papers, and learning modules, with a focus on technologies such as Kubernetes, cybersecurity, CSS, and prompt engineering. My work bridges the gap between complex technical concepts and clear, concise communication for technical and non-technical audiences alike.</p>
+</section>
+
+<section id="experience">
+    <h2>Professional Experience</h2>
+    
+    <h3 class="job-title">Google | Sr. Technical Writer/Prompt Engineer/Content Developer</h3>
+    <p><i>Remote | Oct. 2023 - Sep. 2024</i></p>
+    <ul>
+        <li>Contracted to lead the revision and enhancement of Google's Learn CSS modules.</li>
+        <li>Conducted research and integration of emerging CSS features to keep content current.</li>
+        <li>Collaborated with cross-functional teams to deliver accessible, engaging content.</li>
+    </ul>
+
+    <h3 class="job-title">Apple | Sr. Technical Writer/Content Developer</h3>
+    <p><i>Remote | Oct. 2023 - Sep. 2024</i></p>
+    <ul>
+        <li>Developed documentation for cloud-based infrastructure, including CI/CD pipelines and Kubernetes.</li>
+        <li>Authored the iCloud Private Relay white paper, simplifying complex security concepts for a wide audience.</li>
+    </ul>
+
+    <h3 class="job-title">Facebook | Sr. Technical Writer/Content Developer</h3>
+    <p><i>Hybrid | Apr. 2019 - Oct. 2020</i></p>
+    <ul>
+        <li>Developed informational wikis and presentations for Facebook's Infrastructure and Supply Chain departments.</li>
+        <li>Produced the highest volume of deliverables on the team, consistently measured by internal metrics.</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>iCloud Private Relay White Paper:</strong> Authored a detailed white paper outlining the privacy and security architecture of Apple's network relay system.</li>
+        <li><strong>Google Learn CSS Modules:</strong> Led the enhancement of Google's CSS educational content, ensuring developers have access to the latest in CSS features and best practices.</li>
+        <li><strong>Facebook Infrastructure Wikis:</strong> Developed comprehensive documentation for internal infrastructure, collaborating with cross-functional teams to ensure clarity and accuracy.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out for any inquiries or collaboration opportunities!</p>
+    <p>Email: <a href="mailto:thomas.leone@example.com">thomas.leone@example.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Thomas James Leone</p>
+</footer>
+
 </body>
 </html>
